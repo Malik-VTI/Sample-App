@@ -10,7 +10,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import sample.app.entity.User;
-import programmerzamannow.restful.model.*;
 import sample.app.model.RegisterUserRequest;
 import sample.app.model.UpdateUserRequest;
 import sample.app.model.UserResponse;
