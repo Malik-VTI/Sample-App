@@ -15,7 +15,7 @@ WORKDIR /app
 COPY --from=build /app/target/*.jar app.jar
 
 # Environment variables
-ENV SPRING_DATASOURCE_URL=jdbc:postgresql://localhost:5432/sampleapp
+ENV SPRING_DATASOURCE_URL=jdbc:postgresql://10.100.33.85:5432/sampleapp
 ENV SPRING_DATASOURCE_USERNAME=postgres
 ENV SPRING_DATASOURCE_PASSWORD=M@B#26L2KUns
 
